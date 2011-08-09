@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E5DAC513F0E8B4006D9283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC413F0E8B4006D9283 /* UIKit.framework */; };
+		C2E5DAC713F0E8B4006D9283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC613F0E8B4006D9283 /* Foundation.framework */; };
+		C2E5DAC913F0E8B4006D9283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC813F0E8B4006D9283 /* CoreGraphics.framework */; };
+		C2E5DACF13F0E8B4006D9283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DACD13F0E8B4006D9283 /* InfoPlist.strings */; };
+		C2E5DAD113F0E8B4006D9283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E5DAD013F0E8B4006D9283 /* main.m */; };
+		C2E5DAD513F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E5DAD413F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.m */; };
+		C2E5DAD813F0E8B4006D9283 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DAD613F0E8B4006D9283 /* MainWindow.xib */; };
+		C2E5DADB13F0E8B4006D9283 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E5DADA13F0E8B4006D9283 /* RootViewController.m */; };
+		C2E5DADE13F0E8B4006D9283 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DADC13F0E8B4006D9283 /* RootViewController.xib */; };
+		C2E5DAE613F0E8B4006D9283 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAE513F0E8B4006D9283 /* SenTestingKit.framework */; };
+		C2E5DAE713F0E8B4006D9283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC413F0E8B4006D9283 /* UIKit.framework */; };
+		C2E5DAE813F0E8B4006D9283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC613F0E8B4006D9283 /* Foundation.framework */; };
+		C2E5DAE913F0E8B4006D9283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E5DAC813F0E8B4006D9283 /* CoreGraphics.framework */; };
+		C2E5DAF113F0E8B4006D9283 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DAEF13F0E8B4006D9283 /* InfoPlist.strings */; };
+		C2E5DAF313F0E8B4006D9283 /* NAQT_ScoresheetTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DAF213F0E8B4006D9283 /* NAQT_ScoresheetTests.h */; };
+		C2E5DAF513F0E8B4006D9283 /* NAQT_ScoresheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E5DAF413F0E8B4006D9283 /* NAQT_ScoresheetTests.m */; };
+		C2E5DB0113F0EE62006D9283 /* MainScreenUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E5DAFF13F0EE62006D9283 /* MainScreenUIViewController.m */; };
+		C2E5DB0213F0EE62006D9283 /* MainScreenUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2E5DB0013F0EE62006D9283 /* MainScreenUIViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E5DAEA13F0E8B4006D9283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E5DAB713F0E8B4006D9283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E5DABF13F0E8B4006D9283;
+			remoteInfo = "NAQT Scoresheet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2E5DAC013F0E8B4006D9283 /* NAQT Scoresheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAQT Scoresheet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5DAC413F0E8B4006D9283 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2E5DAC613F0E8B4006D9283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2E5DAC813F0E8B4006D9283 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2E5DACC13F0E8B4006D9283 /* NAQT Scoresheet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAQT Scoresheet-Info.plist"; sourceTree = "<group>"; };
+		C2E5DACE13F0E8B4006D9283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E5DAD013F0E8B4006D9283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2E5DAD213F0E8B4006D9283 /* NAQT Scoresheet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAQT Scoresheet-Prefix.pch"; sourceTree = "<group>"; };
+		C2E5DAD313F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAQT_ScoresheetAppDelegate.h; sourceTree = "<group>"; };
+		C2E5DAD413F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAQT_ScoresheetAppDelegate.m; sourceTree = "<group>"; };
+		C2E5DAD713F0E8B4006D9283 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C2E5DAD913F0E8B4006D9283 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2E5DADA13F0E8B4006D9283 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C2E5DADD13F0E8B4006D9283 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		C2E5DAE413F0E8B4006D9283 /* NAQT ScoresheetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAQT ScoresheetTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E5DAE513F0E8B4006D9283 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2E5DAEE13F0E8B4006D9283 /* NAQT ScoresheetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAQT ScoresheetTests-Info.plist"; sourceTree = "<group>"; };
+		C2E5DAF013F0E8B4006D9283 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E5DAF213F0E8B4006D9283 /* NAQT_ScoresheetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAQT_ScoresheetTests.h; sourceTree = "<group>"; };
+		C2E5DAF413F0E8B4006D9283 /* NAQT_ScoresheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAQT_ScoresheetTests.m; sourceTree = "<group>"; };
+		C2E5DAFE13F0EE62006D9283 /* MainScreenUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenUIViewController.h; sourceTree = "<group>"; };
+		C2E5DAFF13F0EE62006D9283 /* MainScreenUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenUIViewController.m; sourceTree = "<group>"; };
+		C2E5DB0013F0EE62006D9283 /* MainScreenUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenUIViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E5DABD13F0E8B4006D9283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DAC513F0E8B4006D9283 /* UIKit.framework in Frameworks */,
+				C2E5DAC713F0E8B4006D9283 /* Foundation.framework in Frameworks */,
+				C2E5DAC913F0E8B4006D9283 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5DAE013F0E8B4006D9283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DAE613F0E8B4006D9283 /* SenTestingKit.framework in Frameworks */,
+				C2E5DAE713F0E8B4006D9283 /* UIKit.framework in Frameworks */,
+				C2E5DAE813F0E8B4006D9283 /* Foundation.framework in Frameworks */,
+				C2E5DAE913F0E8B4006D9283 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E5DAB513F0E8B4006D9283 = {
+			isa = PBXGroup;
+			children = (
+				C2E5DACA13F0E8B4006D9283 /* NAQT Scoresheet */,
+				C2E5DAEC13F0E8B4006D9283 /* NAQT ScoresheetTests */,
+				C2E5DAC313F0E8B4006D9283 /* Frameworks */,
+				C2E5DAC113F0E8B4006D9283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E5DAC113F0E8B4006D9283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DAC013F0E8B4006D9283 /* NAQT Scoresheet.app */,
+				C2E5DAE413F0E8B4006D9283 /* NAQT ScoresheetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E5DAC313F0E8B4006D9283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DAC413F0E8B4006D9283 /* UIKit.framework */,
+				C2E5DAC613F0E8B4006D9283 /* Foundation.framework */,
+				C2E5DAC813F0E8B4006D9283 /* CoreGraphics.framework */,
+				C2E5DAE513F0E8B4006D9283 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E5DACA13F0E8B4006D9283 /* NAQT Scoresheet */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DAD313F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.h */,
+				C2E5DAD413F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.m */,
+				C2E5DAD613F0E8B4006D9283 /* MainWindow.xib */,
+				C2E5DAD913F0E8B4006D9283 /* RootViewController.h */,
+				C2E5DADA13F0E8B4006D9283 /* RootViewController.m */,
+				C2E5DADC13F0E8B4006D9283 /* RootViewController.xib */,
+				C2E5DACB13F0E8B4006D9283 /* Supporting Files */,
+				C2E5DAFE13F0EE62006D9283 /* MainScreenUIViewController.h */,
+				C2E5DAFF13F0EE62006D9283 /* MainScreenUIViewController.m */,
+				C2E5DB0013F0EE62006D9283 /* MainScreenUIViewController.xib */,
+			);
+			path = "NAQT Scoresheet";
+			sourceTree = "<group>";
+		};
+		C2E5DACB13F0E8B4006D9283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DACC13F0E8B4006D9283 /* NAQT Scoresheet-Info.plist */,
+				C2E5DACD13F0E8B4006D9283 /* InfoPlist.strings */,
+				C2E5DAD013F0E8B4006D9283 /* main.m */,
+				C2E5DAD213F0E8B4006D9283 /* NAQT Scoresheet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E5DAEC13F0E8B4006D9283 /* NAQT ScoresheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DAF213F0E8B4006D9283 /* NAQT_ScoresheetTests.h */,
+				C2E5DAF413F0E8B4006D9283 /* NAQT_ScoresheetTests.m */,
+				C2E5DAED13F0E8B4006D9283 /* Supporting Files */,
+			);
+			path = "NAQT ScoresheetTests";
+			sourceTree = "<group>";
+		};
+		C2E5DAED13F0E8B4006D9283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5DAEE13F0E8B4006D9283 /* NAQT ScoresheetTests-Info.plist */,
+				C2E5DAEF13F0E8B4006D9283 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E5DABF13F0E8B4006D9283 /* NAQT Scoresheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E5DAF813F0E8B4006D9283 /* Build configuration list for PBXNativeTarget "NAQT Scoresheet" */;
+			buildPhases = (
+				C2E5DABC13F0E8B4006D9283 /* Sources */,
+				C2E5DABD13F0E8B4006D9283 /* Frameworks */,
+				C2E5DABE13F0E8B4006D9283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAQT Scoresheet";
+			productName = "NAQT Scoresheet";
+			productReference = C2E5DAC013F0E8B4006D9283 /* NAQT Scoresheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E5DAE313F0E8B4006D9283 /* NAQT ScoresheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E5DAFB13F0E8B4006D9283 /* Build configuration list for PBXNativeTarget "NAQT ScoresheetTests" */;
+			buildPhases = (
+				C2E5DADF13F0E8B4006D9283 /* Sources */,
+				C2E5DAE013F0E8B4006D9283 /* Frameworks */,
+				C2E5DAE113F0E8B4006D9283 /* Resources */,
+				C2E5DAE213F0E8B4006D9283 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E5DAEB13F0E8B4006D9283 /* PBXTargetDependency */,
+			);
+			name = "NAQT ScoresheetTests";
+			productName = "NAQT ScoresheetTests";
+			productReference = C2E5DAE413F0E8B4006D9283 /* NAQT ScoresheetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E5DAB713F0E8B4006D9283 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C2E5DABA13F0E8B4006D9283 /* Build configuration list for PBXProject "NAQT Scoresheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2E5DAB513F0E8B4006D9283;
+			productRefGroup = C2E5DAC113F0E8B4006D9283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E5DABF13F0E8B4006D9283 /* NAQT Scoresheet */,
+				C2E5DAE313F0E8B4006D9283 /* NAQT ScoresheetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E5DABE13F0E8B4006D9283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DACF13F0E8B4006D9283 /* InfoPlist.strings in Resources */,
+				C2E5DAD813F0E8B4006D9283 /* MainWindow.xib in Resources */,
+				C2E5DADE13F0E8B4006D9283 /* RootViewController.xib in Resources */,
+				C2E5DB0213F0EE62006D9283 /* MainScreenUIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5DAE113F0E8B4006D9283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DAF113F0E8B4006D9283 /* InfoPlist.strings in Resources */,
+				C2E5DAF313F0E8B4006D9283 /* NAQT_ScoresheetTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2E5DAE213F0E8B4006D9283 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E5DABC13F0E8B4006D9283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DAD113F0E8B4006D9283 /* main.m in Sources */,
+				C2E5DAD513F0E8B4006D9283 /* NAQT_ScoresheetAppDelegate.m in Sources */,
+				C2E5DADB13F0E8B4006D9283 /* RootViewController.m in Sources */,
+				C2E5DB0113F0EE62006D9283 /* MainScreenUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5DADF13F0E8B4006D9283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E5DAF513F0E8B4006D9283 /* NAQT_ScoresheetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E5DAEB13F0E8B4006D9283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E5DABF13F0E8B4006D9283 /* NAQT Scoresheet */;
+			targetProxy = C2E5DAEA13F0E8B4006D9283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E5DACD13F0E8B4006D9283 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5DACE13F0E8B4006D9283 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2E5DAD613F0E8B4006D9283 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5DAD713F0E8B4006D9283 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C2E5DADC13F0E8B4006D9283 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5DADD13F0E8B4006D9283 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		C2E5DAEF13F0E8B4006D9283 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E5DAF013F0E8B4006D9283 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E5DAF613F0E8B4006D9283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2E5DAF713F0E8B4006D9283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E5DAF913F0E8B4006D9283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAQT Scoresheet/NAQT Scoresheet-Prefix.pch";
+				INFOPLIST_FILE = "NAQT Scoresheet/NAQT Scoresheet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2E5DAFA13F0E8B4006D9283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAQT Scoresheet/NAQT Scoresheet-Prefix.pch";
+				INFOPLIST_FILE = "NAQT Scoresheet/NAQT Scoresheet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2E5DAFC13F0E8B4006D9283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAQT Scoresheet.app/NAQT Scoresheet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAQT Scoresheet/NAQT Scoresheet-Prefix.pch";
+				INFOPLIST_FILE = "NAQT ScoresheetTests/NAQT ScoresheetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C2E5DAFD13F0E8B4006D9283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAQT Scoresheet.app/NAQT Scoresheet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAQT Scoresheet/NAQT Scoresheet-Prefix.pch";
+				INFOPLIST_FILE = "NAQT ScoresheetTests/NAQT ScoresheetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E5DABA13F0E8B4006D9283 /* Build configuration list for PBXProject "NAQT Scoresheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5DAF613F0E8B4006D9283 /* Debug */,
+				C2E5DAF713F0E8B4006D9283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E5DAF813F0E8B4006D9283 /* Build configuration list for PBXNativeTarget "NAQT Scoresheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5DAF913F0E8B4006D9283 /* Debug */,
+				C2E5DAFA13F0E8B4006D9283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E5DAFB13F0E8B4006D9283 /* Build configuration list for PBXNativeTarget "NAQT ScoresheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E5DAFC13F0E8B4006D9283 /* Debug */,
+				C2E5DAFD13F0E8B4006D9283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E5DAB713F0E8B4006D9283 /* Project object */;
+}
